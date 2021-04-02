@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/Buttons.dart';
+import 'file:///D:/Apps/flutter_app/lib/buttons.dart';
 
 class card extends StatelessWidget {
   @override
@@ -56,8 +56,8 @@ class card extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
-                        sharebutton(),
-                        bookmarkbutton(),
+                        Sharebutton(),
+                        Bookmarkbutton(),
                       ],
                     )
                   ],
